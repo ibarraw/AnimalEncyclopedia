@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  height: 100vh;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+}
+
+hr {
+  width: 90%;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  border-radius: 15px;
+  background-color: orange; 
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+ 
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+
+h4 {
+  color: orangered;
+  padding-bottom: 20px;
+  margin-bottom: -20px;
+}
+
+.header {
+  padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	background-color:forestgreen;
+	color:white;
+	font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  width: 100%;
+  margin-bottom: auto;
+  
+}
+button > img {
+  border:  black;
+}
+p > img {
+  
+	box-shadow: 5px 5px 10px black;
+}
+
+.list {
+  text-align: center;
+  width: 100%;
+}
+
+
+.bottom {
+  margin-top: auto;
+  padding-bottom: 7px;
+  width: 100%;
+	text-align: center;
+	font-size:small;
+	background-color: forestgreen;
+	color: white;
+}

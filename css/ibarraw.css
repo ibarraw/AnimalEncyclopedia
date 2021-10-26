@@ -1,0 +1,116 @@
+body {
+	display: flex;
+	margin:auto;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap; /* to allow for columns of varying widths */
+	background-color: white;
+	flex-wrap: row wrap;
+	height: 100vh;
+	width: 100%;
+}
+
+hr {
+  width: 90%;
+}
+
+.top {
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	background-color: forestgreen;
+	color:white;
+	font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+	width: 100%;
+
+}
+
+.cHeader {
+	margin-top: -4px;
+  text-align: center;
+	color: orangered;
+	background-color: lightyellow;
+	width: 100%;
+	
+}
+
+.buttons {
+	padding-top: 8px;
+	background-color:tan;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	width:50%; /* make a column of 50% page size */
+
+}
+
+a:hover { /* more apparent in desktop view */
+  background-color: purple;
+}
+
+li:hover { /* more apparent in desktop view */
+	background-color: orange;
+	color: white;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+a {text-decoration: none; color: white;}
+
+
+ul {margin: 0; padding: 0;}
+
+li {border: thin solid black;
+		background: rgba(46, 46, 46, 0.5); 
+		text-align: center; 
+		padding: 15px; 
+		margin: 0px 10px 40px 10px;
+		list-style-type: none; 
+		border-radius: 15px;
+		box-shadow: 5px 5px 10px black;
+}
+
+img {
+	border-radius: 15px;
+	width: 50%;
+	height: 60px;
+	padding-bottom: 25px;
+	border: thin solid black;
+	background: black; 
+	text-align: center; 
+	padding: 1px; 
+	margin: 0px 10px 22px 10px;
+	list-style-type: none; 
+	width: 50%; /* make a column of 50% page size */
+	box-shadow: 5px 5px 10px black;
+	
+}
+
+.imgs {
+	width: 50%;
+	background-color: lightgoldenrodyellow;
+	text-align: center;
+	height: auto;
+
+}
+.imgs > img {
+	box-shadow: 5px 5px 10px black;
+}
+
+.bottom {
+	padding-bottom: 3px;
+	width: 100%;
+	text-align: center;
+	font-size:small;
+	background-color: forestgreen;
+	color: white;
+}
+	 
+
+
+
+
+
